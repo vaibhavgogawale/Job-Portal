@@ -1,0 +1,12 @@
+.container{
+    text-align: center;
+    margin-top: 150px;
+    color: darkgreen;
+}
+
+
+body {
+    background-image:"url('https://www.google.com/imgres?q=online%20job%20application%20background%20image%20for%20job%20portal%20apps&imgurl=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F475352876%2Fphoto%2Fman-applying-for-a-job-on-the-internet.jpg%3Fs%3D612x612%26w%3D0%26k%3D20%26c%3DSQeciz8vqdGWu_KJoGC7yK8xmpBl69UewPtZSyWSrOI%3D&imgrefurl=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fjob-search&docid=LZGqScf-ksrT7M&tbnid=-3YkSFJmh3YLLM&vet=12ahUKEwif1_b-nsWMAxUu-aACHV8iC5oQM3oECGUQAA..i&w=612&h=428&hcb=2&ved=2ahUKEwif1_b-nsWMAxUu-aACHV8iC5oQM3oECGUQAA')";
+    background-size: cover;
+    background-repeat: no-repeat;
+}

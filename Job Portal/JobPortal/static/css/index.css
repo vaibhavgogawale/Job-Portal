@@ -1,0 +1,12 @@
+.container{
+    text-align: center;
+    margin-top: 150px;
+    color: darkgreen;
+}
+
+
+body {
+    background-image: url('../../../../images.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}

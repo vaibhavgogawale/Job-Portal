@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>job portal</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4"><b>Here You Will Get All Jobs !</b></h1>
+            
+            <p class="lead">
+                <a class="btn btn-success btn-lg" href="{% url 'view_it_jobs' %}" role="button">IT</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-success btn-lg" href="#" role="submit">Mech</a> &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="btn btn-success btn-lg" href="#" role="submit">Civil</a> &nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+            
+        </div>
+    </div>
+
+</body>
+</html>
